@@ -1,0 +1,38 @@
+html,body{
+ font-family: Helvetica, Arial, Georgia, sans-serif;
+}
+
+*{
+ color: #666;
+}
+
+body{
+ padding: 2em;
+}
+
+input, textarea, button{
+ background: none;
+ font-size: 1.5em;
+ border: none;
+}
+
+button{
+ font-weight: bold;
+ cursor: pointer;
+}
+
+button:hover{
+ color: #000;
+}
+
+ul{
+ padding: 0;
+}
+
+li{
+ list-style: none;
+}
+
+.remove-todo{
+
+}

@@ -1,0 +1,42 @@
+html,body{padding: 0; margin:0; font-size: 20px; line-height: 1.5em;}
+input{font-size: inherit; line-height: inherit;}
+ul{ padding: 0; margin: 0;}
+li{ list-style: none; }
+
+.dropdown{
+    display: none;
+    position: absolute;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background: #fff;
+}
+.dropdown li{
+    padding: 4px 9px;
+    border-bottom: 1px solid #ccc;
+}
+.dropdown li:hover{
+    background: #efefef;
+    cursor: pointer;
+}
+.dropdown.active{
+    display: block;
+}
+
+.selection{
+}
+
+.dd-area{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+}
+.dd-block{
+    cursor: move;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    background: #fff;
+}
